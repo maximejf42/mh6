@@ -13,6 +13,7 @@
 		187516A11BA473100058B193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187516A01BA473100058B193 /* Images.xcassets */; };
 		187516A41BA473100058B193 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187516A21BA473100058B193 /* LaunchScreen.xib */; };
 		187516B01BA473100058B193 /* TrackPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187516AF1BA473100058B193 /* TrackPadTests.swift */; };
+		187516BA1BA47D1C0058B193 /* inputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187516B91BA47D1C0058B193 /* inputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		187516A91BA473100058B193 /* TrackPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187516AE1BA473100058B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187516AF1BA473100058B193 /* TrackPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackPadTests.swift; sourceTree = "<group>"; };
+		187516B91BA47D1C0058B193 /* inputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				187516A01BA473100058B193 /* Images.xcassets */,
 				187516A21BA473100058B193 /* LaunchScreen.xib */,
 				187516971BA473100058B193 /* Supporting Files */,
+				187516B91BA47D1C0058B193 /* inputViewController.swift */,
 			);
 			path = TrackPad;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 		1875168C1BA473100058B193 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "The Tropics";
 				TargetAttributes = {
@@ -214,6 +218,7 @@
 			files = (
 				1875169C1BA473100058B193 /* ViewController.swift in Sources */,
 				1875169A1BA473100058B193 /* AppDelegate.swift in Sources */,
+				187516BA1BA47D1C0058B193 /* inputViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +414,7 @@
 				187516B51BA473100058B193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187516B61BA473100058B193 /* Build configuration list for PBXNativeTarget "TrackPadTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				187516B81BA473100058B193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
